@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # ================== 1. إعداد الصفحة واللوجو ==================
-logo_path = r"C:\Users\Lapcell\OneDrive\Desktop\Amaar Company\logo.png"
+logo_path = "logo.png"
 st.set_page_config(
     page_title="شركة عمار حميد سعد المالكي",
     page_icon=logo_path if os.path.exists(logo_path) else None,
@@ -318,3 +318,4 @@ st.divider()
 st.subheader("➡️ التحليلات")
 if st.button("💰 الانتقال إلى تحليل النقدية"):
     st.switch_page("pages/cash_analysis.py")
+
