@@ -5,7 +5,7 @@ import os
 # ======================================================
 # 1️⃣ إعداد الصفحة واللوجو
 # ======================================================
-logo_path = r"C:\Users\Lapcell\OneDrive\Desktop\Amaar Company\logo.png"
+logo_path = "logo.png"
 
 st.set_page_config(
     page_title="تحليل مصادر النقدية",
@@ -234,3 +234,4 @@ st.divider()
 st.subheader("➡️ التحليلات")
 if st.button("💰 الانتقال إلى تحليل المنصرف"):
     st.switch_page("pages/Disbursement analysis.py")
+
